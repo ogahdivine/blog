@@ -1,0 +1,40 @@
+/* STORED VARIABLE  */
+:root{
+    --black: #000;
+    --green: rgb(6, 146, 6);
+    --white: #ffff;
+}
+/* global css is done using *,  it means all elements are affected suing it  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+/* HEADER SECTION  */
+header{
+    background-color: var(--black);
+    color: var(--white) ;
+    padding: 15px 10px;
+
+
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: flex;
+    margin: auto;
+    justify-content: end;
+    gap: 50px;
+}
+
+nav ul li{
+    gap: 50px;
+}
